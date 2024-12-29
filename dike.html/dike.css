@@ -1,0 +1,54 @@
+.body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+}
+.juj {
+    background-color: rgb(33, 37, 41);
+}
+@media (min-width: 576px)
+.navbar-expand-sm {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.nija {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: block;
+}
+
+.button, select {
+    text-transform: none;
+}
+.button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
